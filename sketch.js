@@ -109,6 +109,7 @@ function draw() {
     trex.changeAnimation("collided",trex_collided);
     
     //set lifetime of the game objects so that they are never destroyed
+    
     obstaclesGroup.setLifetimeEach(-1);
     cloudsGroup.setLifetimeEach(-1);
     
